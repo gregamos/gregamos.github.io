@@ -1,14 +1,16 @@
 html {
-    font-size:14px;
+    font-size: 14px;
 }
+
 body {
-    font-family:courier;
-    font-size:16px;
+    font-family: courier;
+    font-size: 16px;
     height: 100%;
 }
+
 .background {
     background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.00)), url(../images/heavy_handed_darkend.jpg) no-repeat;
-    background-size:cover;
+    background-size: cover;
     display: block;
     position: fixed;
     left: 0;
@@ -30,7 +32,7 @@ body {
 }
 
 .nav-anchor {
-    display:block;
+    display: block;
 }
 
 #splash {
@@ -44,39 +46,49 @@ body {
 .site-title {
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .5));
     padding: 20px;
-    display:block;
-    font-size:10rem;
-    margin:auto;
-    background-color: rgba(0,0,0,.5);
-    
+    display: block;
+    font-size: 10rem;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .content-wrapper {
-    background: white;
-    margin-bottom:20%;
-    width:90%
+    margin-bottom: 50%;
+    width: 90%
 }
 
 .content-wrapper>.row {
     margin: 10px;
 }
 
+#bio {
+    background: white;
+}
 
 #featured-items img {
-    margin:auto;
-    height:30rem;
+    margin: auto;
+    max-height: 600px;
+}
+
+.carousel-indicators {
+    bottom: -40px;
 }
 .carousel-indicators li {
-    border-radius:0px;
-    border-color:rgba(0,0,0,.25);
-    background-color:rgba(105, 150, 150, 0.46);
+    border-radius: 0px;
+    border-color: rgba(0, 0, 0, .25);
+    background-color: rgba(105, 150, 150, 0.46);
 }
+
 .carousel-indicators li.active {
-    background-color: rgba(255,255,255,.50);
+    background-color: rgba(255, 255, 255, .50);
 }
+
 .carousel-control.left {
-    left:-5%;
+    left: -5%;
+    background: none;
 }
+
 .carousel-control.right {
-    right:-5%;
+    right: -5%;
+    background: none;
 }
