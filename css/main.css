@@ -32,7 +32,7 @@ body {
 }
 
 .nav-anchor {
-    display: block;
+    display: inline-block;
 }
 
 #splash {
@@ -44,25 +44,26 @@ body {
 }
 
 .site-title {
-    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .5));
     padding: 20px;
     display: block;
-    font-size: 10rem;
     margin: auto;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .55);
+    color:white;
+    font-size: 4rem;
+    text-align: center;
 }
-
 .content-wrapper {
-    margin-bottom: 90%;
+    margin-bottom: 80vh;
     width: 90%
 }
 
 .content-wrapper>.row {
-    margin: 10px;
+    margin: 1rem;
 }
 
 #bio {
     background: white;
+    padding-bottom:3rem;
 }
 
 #featured-items img {
@@ -93,3 +94,21 @@ body {
     background: none;
 }
 
+
+@media screen and (max-device-width: 480px){
+    html {
+        font-size:8px;
+    }
+}
+
+@media screen and (max-device-width: 320px){
+    html {
+        font-size:5px;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+    .dropdown-menu>li>a {
+        text-align:center;
+    }
+}
